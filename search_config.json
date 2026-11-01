@@ -1,0 +1,59 @@
+{
+  "transaction": "wynajem",
+  "city_slug": "malopolskie/krakow/krakow/krakow",
+  "city_display": "Kraków",
+  "price_max": 3500,
+  "price_min": null,
+  "rooms_min": "ONE",
+  "rooms_max": null,
+  "area_min_m2": null,
+  "private_owner_only": false,
+  "required_mentions": [],
+  "max_results_per_search": 72,
+  "email_subject_label": "Kraków, wynajem",
+  "require_near_amenities": true,
+  "max_noise_index": null,
+  "qgis_project_path": "gis_data/PRJ_mieszkania.qgz",
+  "amenities": {
+    "apteka": {
+      "qgis_layer": "amenity_pharmacy_krakow",
+      "buffer_m": 300,
+      "required": true
+    },
+    "szpital": {
+      "qgis_layer": "SZPITALE",
+      "buffer_m": 1500,
+      "required": false
+    },
+    "przedszkole": {
+      "qgis_layer": "amenity_kindergarten_krakow",
+      "buffer_m": 300,
+      "required": true
+    },
+    "park": {
+      "qgis_layer": "leisure_park_krakow",
+      "buffer_m": 300,
+      "required": true
+    },
+    "przystanek": {
+      "qgis_layer": "stops",
+      "buffer_m": 300,
+      "required": false
+    },
+    "las": {
+      "qgis_layer": "landuse_forest_krakow",
+      "buffer_m": 500,
+      "required": false
+    },
+    "przemysl": {
+      "qgis_layer": "landuse_industrial_krakow",
+      "buffer_m": 500,
+      "required": false
+    },
+    "zielenina": {
+      "qgis_layer": "natural_wood_krakow",
+      "buffer_m": 300,
+      "required": false
+    }
+  }
+}

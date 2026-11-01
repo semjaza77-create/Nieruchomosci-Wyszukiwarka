@@ -1,0 +1,7 @@
+streamlit
+requests
+geopandas
+pandas
+shapely
+python-dotenv
+anthropic
